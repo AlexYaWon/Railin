@@ -14,7 +14,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .then((response) => response.json())
     .then((data) => {
       ipAddress = data.YourFuckingIPAddress;
-      says.push(`ip: ${ipAddress}`);
-      splashText();
     });
 });
